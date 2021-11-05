@@ -15,56 +15,53 @@ class Mayonesa_casera {}}
 
       mezcla_de_ingredientes ()
       return this.huevo*this.aceite*this.limon*this*sal;
-
-
 deje huevo = verdadero, aceite = verdadero, limon = falso, sal = verdadero;
 
-function hacer_mayonesa () {
+function hacerMayonesa () {
     console.log ("PASO A PASO");
 }
 
-función agregar_limon () {
+función agregarLimon () {
     console.log ("AGREGAR LIMON");     
 }
 
 if (huevo && aceite && sal && limon) {
     console.log ("HACER CON LIMON"); 
-    hacer_mayonesa ();
-    agregar_limon ();
+    hacerMayonesa ();
+    agregarLimon ();
 } else if (huevo && aceite && sal) {
     console.log ("SIN LIMON"); 
-    hacer_mayonesa ();
+    hacerMayonesa ();
 } demás { 
     console.log ("NO SE PUEDE HACER MAYONESA")
 }
 
-function romper_un_huevo_y_meterlo_en_un_vaso_hondo () {
+function romperUnHuevoYMeterloEnUnVasoHondo () {
     console.log ("Romper un huevo y meterlo en un vaso hondo");
 }
-function meter_2_tazas_de_aceite_de_oliva_o_girasol () {
+function meter2TazasDeAceiteDeOlivaOGirasol () {
     console.log ("Medidor 2 tazas de aceite de oliva o girasol");
 }
-function agregar_pizcas_de_sal_al_gusto () {
+function agregarPizcasDeSalAlGusto () {
     console.log ("Agregar pizcas de sal al gusto");
 }
     // 2 gotas de limon!  
 
-function agregar_media_cucharadita_de_vinagre () {
+function agregaMediaCucharaditaDeLimon () {
     console.log ("Agregar media cucharadita de vinagre.");
 }
-function introducir_la_licuadora_electrica_o_manual_dentro_de_la_mezcla () {
+function introducirLaLicuadoraElectricaOManualDentroDeLaMezcla () {
     console.log ("Introducir la licuadora eléctrica o manual dentro de la mezcla");
 }
-function empezar_a_batir_todo_hasta_emulsionar () {
+function empezarABatirTodoHastaEmulsionar () {
     console.log ("Empezar a batir todo hasta emulsionar");
 }
-function mover_de_arriba_hacia_abajo_para_sacarle_aire () {
+function moverDeArribaHaciaAbajoParaSacarleElAire () {
     console.log ("Mover de arriba hacia abajo para sacarle aire");
 }
-function retira_la_licuadora_al_ver_la_textura_espesa () {
+function retiraLaLicuadoraAlVerLaTexturaEspesa () {
     consola.log ("Retira la licuadora al ver la textura espesa");
 }
-function dejarlo_reposar_3_minutos () {
+function dejarloReposar3Minutos () {
     console.log ("Dejarlo reposar")
     console.log ("Listo !!");
-}
