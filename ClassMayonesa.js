@@ -15,13 +15,15 @@ class Mayonesa_casera {}}
 
       mezcla_de_ingredientes ()
       return this.huevo*this.aceite*this.limon*this*sal;
-deje huevo = verdadero, aceite = verdadero, limon = falso, sal = verdadero;
+
+      
+      let huevo = verdadero, aceite = verdadero, limon = falso, sal = verdadero;
 
 function hacerMayonesa () {
     console.log ("PASO A PASO");
 }
 
-función agregarLimon () {
+function agregarLimon () {
     console.log ("AGREGAR LIMON");     
 }
 
@@ -60,8 +62,9 @@ function moverDeArribaHaciaAbajoParaSacarleElAire () {
     console.log ("Mover de arriba hacia abajo para sacarle aire");
 }
 function retiraLaLicuadoraAlVerLaTexturaEspesa () {
-    consola.log ("Retira la licuadora al ver la textura espesa");
+    console.log ("Retira la licuadora al ver la textura espesa");
 }
 function dejarloReposar3Minutos () {
     console.log ("Dejarlo reposar")
     console.log ("Listo !!");
+}
