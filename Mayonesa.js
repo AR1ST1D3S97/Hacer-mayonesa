@@ -12,6 +12,6 @@ module.exports = class Mayonesa {
       }
 
       mezcla_de_ingredientes () {
-        return this.huevo + this.aceite + this.limon + this*sal;
+        return this.huevo + this.aceite + this.limon + this.sal;
       }
 };
